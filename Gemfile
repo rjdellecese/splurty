@@ -9,12 +9,6 @@ gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
-# Include bootstrap
-gem 'bootstrap-sass', '~> 3.3.4'
-
-# Include Simple Form
-gem 'simple_form'
-
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -37,6 +31,14 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+# Include bootstrap
+gem 'bootstrap-sass', '~> 3.3.4'
+
+# Include Simple Form
+gem 'simple_form'
+
+gem 'factory_girl_rails', '~> 4.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
